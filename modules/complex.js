@@ -39,7 +39,7 @@ export default class Complex {
 
     toString() {
         let sign = this.im < 0 ? '-' : '+';
-        return(`${this.re} ${sign} ${Math.abs(this.im)}i `);
+        return(`${this.re} ${sign} ${Math.abs(this.im)}i`);
     }
     log() {
         let sign = this.im < 0 ? '-' : '+';
